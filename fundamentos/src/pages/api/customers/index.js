@@ -9,7 +9,7 @@ export default function handler(req, res){
 function handleGet(req, res){
     res.status(200).json({
         id: 1,
-        nome: 'Wenderson',
-        idade: 25
+        name: 'Wenderson',
+        age: 25
     })
 }

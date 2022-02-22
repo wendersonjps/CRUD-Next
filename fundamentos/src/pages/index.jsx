@@ -10,6 +10,7 @@ export default function Home(){
             <Nav text="Navegação #01" destiny="/navigation"></Nav>
             <Nav text="Navegação #02" destiny="/customer/123"></Nav>
             <Nav text="Componente com Estado" destiny="/state"></Nav>
+            <Nav text="Integração API #01" destiny="/integration"></Nav>
         </div>
     )
 }
