@@ -1,0 +1,12 @@
+.nav {
+    background-color: mediumslateblue;
+    color: #222;
+    padding: 20px;
+    margin: 5px;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.nav:hover {
+    color: white;
+}
