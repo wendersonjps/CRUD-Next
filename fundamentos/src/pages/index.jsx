@@ -9,8 +9,9 @@ export default function Home(){
             <Nav text="JSX" destiny="/jsx"></Nav>
             <Nav text="Navegação #01" destiny="/navigation"></Nav>
             <Nav text="Navegação #02" destiny="/customer/123"></Nav>
-            <Nav text="Componente com Estado" destiny="/state"></Nav>
-            <Nav text="Integração API #01" destiny="/integration"></Nav>
+            <Nav text="Componente Estado" destiny="/state"></Nav>
+            <Nav text="Integração API" destiny="/integration"></Nav>
+            <Nav text="Conteúdo Estático" destiny="/static"></Nav>
         </div>
     )
 }
