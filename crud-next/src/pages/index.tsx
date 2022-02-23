@@ -1,14 +1,19 @@
-export default function Home() {
+import Layout from "../components/Layout";
+
+export default function Home(){
   return (
     <div className={`
-    flex 
-    h-screen 
-    justify-center 
-    items-center
-    bg-gradient-to-r from-blue-700 to-pink-500
+      flex 
+      justify-center 
+      items-center
+      h-screen 
+      bg-gradient-to-r from-blue-700 to-pink-500
+      text-white
     `}>
 
-    <span className="text-4xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, quod, dolore repellat cumque maiores aut iure magnam corrupti neque sequi velit nostrum nobis quidem pariatur, totam rerum nemo. Ipsa, harum.</span>
+    <Layout title="Cadastro Simples">
+      <span>Conteúdo</span>
+    </Layout>
     </div>
   )
 }
