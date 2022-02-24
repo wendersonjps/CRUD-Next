@@ -7,8 +7,7 @@ export default function Home(){
       justify-center 
       items-center
       h-screen 
-      bg-gradient-to-r from-blue-700 to-pink-500
-      text-white
+      bg-gradient-to-r from-blue-700 to-green-500
     `}>
 
     <Layout title="Cadastro Simples">
