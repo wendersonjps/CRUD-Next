@@ -25,7 +25,7 @@ export default function Table(props: TableProps){
     function renderData(){
         return props.clients?.map((client, i) => {
             return (
-                <tr key={client.id} className={`${i % 2 === 0 ? 'bg-purple-200' : 'bg-purple-100'}`}>
+                <tr key={client.id} className={`${i % 2 === 0 ? 'bg-blue-50' : 'bg-blue-100'}`}>
                     <td className={`text-left p-2`}>{client.id}</td>
                     <td className={`text-left p-2`}>{client.name}</td>
                     <td className={`text-left p-2`}>{client.age}</td>
@@ -66,7 +66,7 @@ export default function Table(props: TableProps){
     return (
         <table className={`w-full rounded-xl overflow-hidden`}>
             <thead className={`
-            bg-purple-400
+            bg-blue-500
             text-white
             `}>
                 {renderHeader()}
